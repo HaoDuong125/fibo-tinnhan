@@ -1,0 +1,124 @@
+.checkbox_size_ct {
+    width: 18px;
+    height: 18px;
+}
+.nav_link_ct {
+    padding: .5rem 0.5rem;
+}
+.bg-orange-ct {
+    background-color: rgb(226, 112, 31);
+    color: #fff;
+}
+
+.color-orange-ct {
+    color: rgb(228, 132, 63);
+}
+.lockscreen-item-ct {
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    min-width: 350px;
+}
+/* sm */
+@media (min-width: 768px) {
+    .lockscreen-item-ct {
+        width: 75%;
+    }
+    .btn-w-ct {
+        width: 50%;
+    }
+    .guarantee-box {
+        margin-top: 2rem;
+    }
+}
+/* lg */
+@media (min-width: 1400px) {
+    .lockscreen-item-ct {
+        width: 50%;
+    }
+    .btn-w-ct {
+        width: 25%;
+    }
+    .guarantee-box {
+        margin-top: 11rem;
+    }
+}
+
+
+.guarantee-page {
+    align-items: center;
+    background: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/img/bg1192.jpg');
+    background-size: cover;
+}
+
+
+.guarantee-box {
+    width: 650px;
+}
+.list-active-guarantee-box {
+    width: 850px;
+}
+
+@media (max-width: 576px) {
+  .guarantee-box {
+    margin-top: 0;
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+    .list-active-guarantee-box {
+      margin-top: 11rem;
+      width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .list-active-guarantee-box {
+      width: 90%;
+    }
+}
+
+.stock-div-ct {
+    padding: 8px;
+    background-color: #c9de67;
+    border-radius: 4px;
+}
+
+
+.enter-code-stock-ct {
+    padding: 8px;
+    background-color:rgb(44, 160, 131);
+    border-radius: 4px;
+}
+
+.pagination {
+    float: right;
+}
+
+.tableFixHead          { overflow-y: auto; height: 500px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+/* th     { background:#007bff; } */
+
+.btn-Etrust {
+    color: #fff;
+    background-color: green;
+    border-color: green;
+    box-shadow: none;
+}
+
+.text-Etrust {
+    color: green;
+}
+
+.bg-Etrust {
+    color: #fff;
+    background-color: #006e82 !important;
+}
